@@ -1,0 +1,70 @@
+MySQL db remote connection establish with python example
+---------------------------------------------------------------
+
+Comment out the bind address from the file /etc/mysql/my.cnf:
+
+  #bind-address  = 127.0.0.1
+
+  sudo service mysql restart
+
+Grant permission to user
+
+  mysql -u root --host=127.0.0.1 -p
+
+  mysql>use mysql
+
+  mysql>GRANT ALL ON *.* to root@'%' IDENTIFIED BY 'redhat@123';
+
+  mysql>FLUSH PRIVILEGES;
+
+  mysql> SELECT host FROM mysql.user WHERE User = 'root';
+
+Testing
+mysql -u root -p -h xxx.xxx.xxx.xxx -P 3306
+
+
+Python Example To connect MySQL:
+
+install Packages:
+
+  sudo apt-get install python-mysql.connector python-mysqldb
+  sudo pip install pymysql
+  
+Example:
+
+#!/usr/bin/python
+import MySQLdb
+import pymysql
+import mysql.connector
+
+hostname = 'xxx.xxx.xxx.xxx'
+username = 'USQRNAME'
+password = 'PASSWORD'
+database = 'DATABASENAME'
+
+# Simple routine to run a query on a database and print the results:
+
+
+def doQuery(conn):
+    cur = conn.cursor()
+
+    cur.execute("select firstname, lastname from employee")
+
+    for firstname, lastname in cur.fetchall():
+        print firstname, lastname
+
+
+print "Using MySQLdb"
+myConnection = MySQLdb.connect(host=hostname, user=username, passwd=password, db=database)
+doQuery(myConnection)
+myConnection.close()
+
+print "Using pymysql"
+myConnection = pymysql.connect(host=hostname, user=username, passwd=password, db=database)
+doQuery(myConnection)
+myConnection.close()
+
+print "Using mysql.connector"
+myConnection = mysql.connector.connect(host=hostname, user=username, passwd=password, db=database)
+doQuery(myConnection)
+myConnection.close()
