@@ -8,3 +8,7 @@ Ubuntu Realated Dev tips and tricks
 3. <a href="https://www.systemcodegeeks.com/databases/postgresql/postgresql-database-tutorial/" target="_new">Postgresql Tutorial</a>
 
 4. <a href="https://www.systemcodegeeks.com/databases/postgresql/postgresql-hot-standby-database-replication/" target="_new">Postgresql Replication Tutorial</a>
+    External Links:
+          https://severalnines.com/blog/top-pg-clustering-ha-solutions-postgresql
+          https://cloud.google.com/community/tutorials/setting-up-postgres-hot-standby
+          https://cloud.google.com/community/tutorials/setting-up-postgres
