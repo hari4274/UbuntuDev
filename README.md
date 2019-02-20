@@ -12,4 +12,4 @@ Ubuntu Realated Dev tips and tricks
           https://severalnines.com/blog/top-pg-clustering-ha-solutions-postgresql
           https://cloud.google.com/community/tutorials/setting-up-postgres-hot-standby
           https://cloud.google.com/community/tutorials/setting-up-postgres
-5. <a href="hhttps://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-1604" target="_new">How To Set Up SSH Keys on Ubuntu</a>
+5. <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-1604" target="_new">How To Set Up SSH Keys on Ubuntu</a>
