@@ -13,3 +13,6 @@ Ubuntu Realated Dev tips and tricks
           https://cloud.google.com/community/tutorials/setting-up-postgres-hot-standby
           https://cloud.google.com/community/tutorials/setting-up-postgres
 5. <a href="rsync_ssh_copy_commands.sh" target="_new">How To Set Up SSH Keys on Ubuntu</a>
+
+6. To view cron logs in ubuntu:
+    `grep CRON /var/log/syslog`
