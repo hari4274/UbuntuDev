@@ -16,3 +16,6 @@ Ubuntu Realated Dev tips and tricks
 
 6. To view cron logs in ubuntu:
     `grep CRON /var/log/syslog`
+
+7. Kill all greb result in linux:
+    `sudo ps -ax |grep odoo| awk '{print $1}'|xargs kill -9 $1`
