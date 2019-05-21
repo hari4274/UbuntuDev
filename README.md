@@ -19,3 +19,7 @@ Ubuntu Realated Dev tips and tricks
 
 7. Kill all greb result in linux:
     `sudo ps -ax |grep odoo| awk '{print $1}'|xargs kill -9 $1`
+
+8. Dropbox upload script:
+    https://www.addictivetips.com/ubuntu-linux-tips/use-dropbox-from-the-linux-command-line/
+    wget https://raw.githubusercontent.com/andreafabrizi/Dropbox-Uploader/master/dropbox_uploader.sh && chmod +x dropbox_uploader.sh
