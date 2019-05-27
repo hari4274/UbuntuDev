@@ -23,3 +23,6 @@ Ubuntu Realated Dev tips and tricks
 8. Dropbox upload script:
     https://www.addictivetips.com/ubuntu-linux-tips/use-dropbox-from-the-linux-command-line/
     wget https://raw.githubusercontent.com/andreafabrizi/Dropbox-Uploader/master/dropbox_uploader.sh && chmod +x dropbox_uploader.sh
+    
+9. External Application links not working(Blank chrome page opening):
+    https://askubuntu.com/questions/689449/external-links-are-opened-as-blank-tabs-in-new-browser-window-in-chrome
