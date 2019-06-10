@@ -4,6 +4,7 @@
 - https://github.com/getredash/redash
 - https://redash.io/help/open-source/dev-guide/setup
 - https://redash.io/help/open-source/admin-guide/env-vars-settings
+- [Configuration all - nice - gitgist](https://gist.github.com/mattes/f941cdc95639e482060a86b9f7ad983b)
 
 #### git clone
 
@@ -79,7 +80,7 @@
 
 - add the following lines
 
-`
+```
     server {
             listen 8092;
             listen [::]:8092;
@@ -102,8 +103,7 @@
             }
     }
 
-`
-
+```
 
 
 
