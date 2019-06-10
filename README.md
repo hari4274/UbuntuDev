@@ -26,3 +26,5 @@ Ubuntu Realated Dev tips and tricks
     
 9. External Application links not working(Blank chrome page opening):
     https://askubuntu.com/questions/689449/external-links-are-opened-as-blank-tabs-in-new-browser-window-in-chrome
+
+10. [Install Redash reporting tool(Open source)](https://github.com/hari4274/UbuntuDev/blob/master/Install_Redash_reporting_tool.md)
