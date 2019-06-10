@@ -21,7 +21,13 @@
 `sudo apt install redis-server`
 
 #### Creating virual environment
+`sudo apt-get install python-pip`
+
+`sudo pip install virtualenv`
+
 `virtualenv env`
+
+`source env/bin/activate`
 
 `pip install -r requirements.txt -r requirements_dev.txt`
 
@@ -35,8 +41,11 @@
 - add line (postgresql://DB_USER:PASSWORD@HOST/)
   REDASH_DATABASE_URL=postgresql://postgres:postgres@localhost/
 
-  
+`echo "REDASH_DATABASE_URL=postgresql://postgres:postgres@localhost/" >> .env`
+
 #### npm package install
+`sudo apt install npm`
+
 `npm install`
 
 `npm run build`
@@ -57,3 +66,44 @@
 
 #### Starting Redash
 `npm run start`
+
+#### Install NGINX
+`sudo apt-get install nginx`
+
+#### Check running ports
+`curl localhost:8080`
+
+#### Add nginx configuration
+
+`sudo nano /etc/nginx/sites-available/default`
+
+- add the following lines
+
+`
+    server {
+            listen 8092;
+            listen [::]:8092;
+
+            server_name _;
+
+
+            #root /home/saasmate/workspace/jquery;
+            #index index.html;
+
+            location / {
+                    add_header 'Access-Control-Allow-Origin' '*';
+                    add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
+                    add_header 'Access-Control-Allow-Headers' 'DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range';
+                    add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range';
+                    #try_files $uri $uri/ =404;
+                    client_max_body_size 100M;
+                    proxy_redirect off;
+                    proxy_pass http://localhost:8080;
+            }
+    }
+
+`
+
+
+
+
