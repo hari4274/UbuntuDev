@@ -28,3 +28,6 @@ Ubuntu Realated Dev tips and tricks
     https://askubuntu.com/questions/689449/external-links-are-opened-as-blank-tabs-in-new-browser-window-in-chrome
 
 10. [Install Redash reporting tool(Open source)](https://github.com/hari4274/UbuntuDev/blob/master/Install_Redash_reporting_tool.md)
+
+11. [Pivot JS - awesome - CSV or JSON](https://pivottable.js.org/examples/index.html)
+[CSV File Map test](https://pivottable.js.org/examples/mps_csv.html)
