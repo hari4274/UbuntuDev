@@ -31,3 +31,7 @@ Ubuntu Realated Dev tips and tricks
 
 11. [Pivot JS - awesome - CSV or JSON](https://pivottable.js.org/examples/index.html)
 [CSV File Map test](https://pivottable.js.org/examples/mps_csv.html)
+
+12. Testing System performance Linux (Calculating 10000 Pi value)
+> `time echo "scale = 10000; 4 * a (1)" | bc -l`
+
