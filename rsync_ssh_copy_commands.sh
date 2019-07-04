@@ -2,6 +2,8 @@
 
 # https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-1604
 
+# Note : Please provide passphrase then only ssh key login will work
+
 ssh-keygen
 
 cat ~/.ssh/id_rsa.pub | ssh hari@192.168.0.127 "mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys && chmod -R go= ~/.ssh && cat >> ~/.ssh/authorized_keys"
