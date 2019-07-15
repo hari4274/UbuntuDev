@@ -29,7 +29,7 @@
 9. [External Application links not working(Blank chrome page opening)](https://askubuntu.com/questions/689449/external-links-are-opened-as-blank-tabs-in-new-browser-window-in-chrome)
     
 
-10. [Install Redash reporting tool(Open source)](https://github.com/hari4274/UbuntuDev/blob/master/Install_Redash_reporting_tool.md)
+10. [Install Redash reporting tool(Open source)](Redash/)
 
 11. Pivot Views JS - Library
     * [Pivot JS - awesome - CSV or JSON](https://pivottable.js.org/examples/index.html)
