@@ -3,8 +3,10 @@
 #### Reference
 - https://github.com/getredash/redash
 - https://redash.io/help/open-source/dev-guide/setup
-- https://redash.io/help/open-source/admin-guide/env-vars-settings
+- [Environment Variable for Redash]https://redash.io/help/open-source/admin-guide/env-vars-settings
 - [Configuration all - nice - gitgist](https://gist.github.com/mattes/f941cdc95639e482060a86b9f7ad983b)
+- [Nginx Configuration for Redash](files/nginx_site_redash)
+- [Service Configuration for Redash](files/redash_services.conf)
 
 #### git clone
 
@@ -81,29 +83,36 @@
 - add the following lines
 
 ```
-    server {
-            listen 8092;
-            listen [::]:8092;
+upstream rd_servers {
+  server 127.0.0.1:5000;
+}
 
-            server_name _;
+server {
 
+  server_tokens off;
 
-            #root /home/saasmate/workspace/jquery;
-            #index index.html;
+  listen 8092 default;
 
-            location / {
-                    add_header 'Access-Control-Allow-Origin' '*';
-                    add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
-                    add_header 'Access-Control-Allow-Headers' 'DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range';
-                    add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range';
-                    #try_files $uri $uri/ =404;
-                    client_max_body_size 100M;
-                    proxy_redirect off;
-                    proxy_pass http://localhost:8080;
-            }
-    }
+  access_log /var/log/nginx/rd.access.log;
+
+  gzip on;
+  gzip_types *;
+  gzip_proxied any;
+
+  location / {
+    proxy_set_header Host $http_host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_pass http://127.0.0.1:5000;
+ }
+}
 
 ```
+
+### Reset user password
+
+`bin/run ./manage.py users password admin@gmail.com admin`
 
 
 
