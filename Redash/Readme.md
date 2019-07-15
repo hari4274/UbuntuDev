@@ -7,6 +7,7 @@
 - [Configuration all - nice - gitgist](https://gist.github.com/mattes/f941cdc95639e482060a86b9f7ad983b)
 - [Nginx Configuration for Redash](files/nginx_site_redash)
 - [Service Configuration for Redash](files/redash_services.conf)
+- [Old Version redash installtion and file help](https://github.com/getredash/redash/tree/release/5.0.x/setup/ubuntu) 
 
 #### git clone
 
