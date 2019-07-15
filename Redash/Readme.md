@@ -3,7 +3,7 @@
 #### Reference
 - https://github.com/getredash/redash
 - https://redash.io/help/open-source/dev-guide/setup
-- [Environment Variable for Redash]https://redash.io/help/open-source/admin-guide/env-vars-settings
+- [Environment Variable for Redash](https://redash.io/help/open-source/admin-guide/env-vars-settings)
 - [Configuration all - nice - gitgist](https://gist.github.com/mattes/f941cdc95639e482060a86b9f7ad983b)
 - [Nginx Configuration for Redash](files/nginx_site_redash)
 - [Service Configuration for Redash](files/redash_services.conf)
