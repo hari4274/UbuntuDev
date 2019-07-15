@@ -33,3 +33,11 @@ VersionMismatch: Redis transport requires redis-py versions 3.2.0 or later. You 
 ### soln:
 >
 	(env) saasmate@saasmate:~/.../redash_dev$ pip install redis==3.2.0
+
+
+## Issue 4
+ - After Installtion, http://localhost:8092?next=/ or anything auto redirect error 
+
+### soln:
+ - Check the .env, add `REDASH_HOST=http://192.168.100.86:8092`
+ - [Check the nginx server configuration](files/nginx_site_redash)
