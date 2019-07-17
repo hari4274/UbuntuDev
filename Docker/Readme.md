@@ -1,10 +1,11 @@
 # Docker 
 - [Udemy Course](https://www.udemy.com/docker-from-zero-to-hero/learn/lecture/15481052#overview)
 ## Docker File
->	FROM centos
-	RUN yum -y install httpd
-	CMD apachectl -DDOREGROUND
-
+```
+FROM centos
+RUN yum -y install httpd
+CMD apachectl -DDOREGROUND
+```
 ## Install Docker on Ubuntu
 - [Docker Installation](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
