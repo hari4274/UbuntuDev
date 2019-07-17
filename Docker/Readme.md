@@ -35,6 +35,7 @@ CMD apachectl -DDOREGROUND
 ## Hints & Tips
 
 #### `docker ps` permission error:
+![Permission Error](Screenshots/Docker_command_permission_error.png)
  - Get current user name :
   - `whoami`
  - Add docker group to sudoer group :
