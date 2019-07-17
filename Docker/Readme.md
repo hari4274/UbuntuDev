@@ -19,7 +19,7 @@ CMD apachectl -DDOREGROUND
 
  - `sudo apt-get update`
 
- - `sudo apt-get install docker-ce docker-ce-cli containerd.io -y`
+ - `sudo apt-get install docker-ce docker-ce-cli containerd.io -y` or `sudo apt-get install docker.io`
 
  - `sudo docker run hello-world`
 
