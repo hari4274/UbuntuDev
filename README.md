@@ -41,4 +41,4 @@
 13. [Set a Static IP on Ubuntu Server](https://www.howtoforge.com/linux-basics-set-a-static-ip-on-ubuntu)
 14. [Delete all pyc files in current directory in terminal](https://blog.mozilla.org/webdev/2015/10/27/eradicating-those-nasty-pyc-files/)
    > `find . -name '*.pyc' -delete`
-
+15. [Github or any VCS, for private repository pull and push every time asking username and password](github_credentials_setup.md)
