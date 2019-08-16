@@ -43,3 +43,7 @@
    > `find . -name '*.pyc' -delete`
 15. [Github or any VCS, for private repository pull and push every time asking username and password](github_credentials_setup.md)
 16. [Postgresql Config File in  MAC OS](https://til.codes/postgresql-how-to-find-pg_hba-conf-file-using-mac-os-x/)
+17. Restart postgreSQL in mac(without install brew):
+  - `sudo su postgres && pg_ctl -D /Library/PostgreSQL/11/data/ status`
+  - if Brew:
+      * [Restarting postgresql in mac](https://tableplus.com/blog/2018/10/how-to-start-stop-restart-postgresql-server.html)
