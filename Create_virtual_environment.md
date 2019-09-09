@@ -23,6 +23,8 @@ Create Python Virtual Environment In Ubuntu
         Create Virtualenv with specific python3
 
             virtualenv -p /usr/bin/python3 py3_env
+        (or)
+            python3 -m venv ./py3_env
 
         Activate:
             
