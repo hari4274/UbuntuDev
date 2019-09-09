@@ -47,3 +47,4 @@
   - `sudo su postgres && pg_ctl -D /Library/PostgreSQL/11/data/ status`
   - if Brew:
       * [Restarting postgresql in mac](https://tableplus.com/blog/2018/10/how-to-start-stop-restart-postgresql-server.html)
+18. [Create Virtual environment in python](Create_virtual_environment.md)
