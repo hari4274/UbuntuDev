@@ -48,3 +48,4 @@
   - if Brew:
       * [Restarting postgresql in mac](https://tableplus.com/blog/2018/10/how-to-start-stop-restart-postgresql-server.html)
 18. [Create Virtual environment in python](Create_virtual_environment.md)
+19. [ProcessManager for individual scripts(node, py, sh or etc ...)](ProcessManager_for_microservices.md)
