@@ -2,6 +2,7 @@
 
 ### Links
  - [PM2](http://pm2.keymetrics.io/docs/usage/quick-start/)
+ - [PM2 example - Medium](https://medium.com/@gokhang1327/deploying-flask-app-with-pm2-on-ubuntu-server-18-04-992dfd808079)
  
 #### Sample example try to run python script with environment using pm2
 ```
