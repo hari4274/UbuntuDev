@@ -34,3 +34,16 @@
  pm2 logs
  pm2 stop PyFace
 ```
+
+### Odoo run via PM2
+```
+cd /opt/odoo/odoo12
+pm2 start ./odoo-bin --interpreter .env/bin/python --name odoo12Demo -- --config=odoo12_conf.conf
+pm2 ls
+tail -f /var/log/odoo/odoo12/odoo12Demo-server.log
+pm2 restart odoo12Demo
+pm2 monit
+pm2 delete odoo12Demo
+
+```
+
