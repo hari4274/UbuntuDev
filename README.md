@@ -49,3 +49,5 @@
       * [Restarting postgresql in mac](https://tableplus.com/blog/2018/10/how-to-start-stop-restart-postgresql-server.html)
 18. [Create Virtual environment in python](Create_virtual_environment.md)
 19. [ProcessManager for individual scripts(node, py, sh or etc ...)](ProcessManager_for_microservices.md)
+20. [GIT Cheatsheet pages](https://www.atlassian.com/dam/jcr:8132028b-024f-4b6b-953e-e68fcce0c5fa/atlassian-git-cheatsheet.pdf)
+21. [GIT cherry pick commits](https://www.devroom.io/2010/06/10/cherry-picking-specific-commits-from-another-branch/)
