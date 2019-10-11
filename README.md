@@ -20,7 +20,8 @@
 > `grep CRON /var/log/syslog`
 
 7. Kill all greb result in linux:
-> `sudo ps -ax |grep odoo| awk '{print $1}'|xargs kill -9 $1`
+   - To kill all odoo services : `sudo ps -ax |grep odoo| awk '{print $1}'|xargs kill -9 $1`
+   -  To Kill paricular Port : `sudo fuser -k 7073/tcp`
 
 8. Dropbox upload script:
    * [Dropbox upload script Document](https://www.addictivetips.com/ubuntu-linux-tips/use-dropbox-from-the-linux-command-line/)
