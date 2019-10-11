@@ -51,3 +51,6 @@
 19. [ProcessManager for individual scripts(node, py, sh or etc ...)](ProcessManager_for_microservices.md)
 20. [GIT Cheatsheet pages](https://www.atlassian.com/dam/jcr:8132028b-024f-4b6b-953e-e68fcce0c5fa/atlassian-git-cheatsheet.pdf)
 21. [GIT cherry pick commits](https://www.devroom.io/2010/06/10/cherry-picking-specific-commits-from-another-branch/)
+22. [MacOS Shell change to bash](https://www.cyberciti.biz/faq/change-default-shell-to-bash-on-macos-catalina/) 
+   - `cat /etc/shells`
+   - `chsh -s /bin/bash`
