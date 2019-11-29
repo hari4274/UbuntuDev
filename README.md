@@ -55,3 +55,4 @@
 22. [MacOS Shell change to bash](https://www.cyberciti.biz/faq/change-default-shell-to-bash-on-macos-catalina/) 
    - `cat /etc/shells`
    - `chsh -s /bin/bash`
+23. [SQL based system query from facebook - Osquery](https://osquery.io)
