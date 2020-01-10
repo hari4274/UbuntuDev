@@ -56,3 +56,6 @@
    - `cat /etc/shells`
    - `chsh -s /bin/bash`
 23. [SQL based system query from facebook - Osquery](https://osquery.io)
+24. [How to create a node-js module ?](https://www.digitalocean.com/community/tutorials/how-to-create-a-node-js-module)
+25. [How to display data from the degitalocean api with django](https://www.digitalocean.com/community/tutorials/how-to-display-data-from-the-digitalocean-api-with-django)
+26. [How to build a morden web application to manage with django and react on ubuntu -production deploy](https://www.digitalocean.com/community/tutorials/how-to-build-a-modern-web-application-to-manage-customer-information-with-django-and-react-on-ubuntu-18-04)
