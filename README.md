@@ -59,3 +59,7 @@
 24. [How to create a node-js module ?](https://www.digitalocean.com/community/tutorials/how-to-create-a-node-js-module)
 25. [How to display data from the degitalocean api with django](https://www.digitalocean.com/community/tutorials/how-to-display-data-from-the-digitalocean-api-with-django)
 26. [How to build a morden web application to manage with django and react on ubuntu -production deploy](https://www.digitalocean.com/community/tutorials/how-to-build-a-modern-web-application-to-manage-customer-information-with-django-and-react-on-ubuntu-18-04)
+27. Github config commands:
+   - Change Email : `git config --global user.email "email@ubuntu.com"`
+   - Change Name : `git config user.name "Hariprasath"`
+   - Dontconsider fiele permision changes : `git config core.fileMode false`
