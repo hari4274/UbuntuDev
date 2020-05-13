@@ -15,3 +15,17 @@
        username = GITUSER_NAME
   ```
 4) Save and Close, Then pull and push only ask you for a password.
+
+## Approach 2: 
+## Add git config in Home directory:
+   - `cd && touch .gitconfig`
+   - Add the following lines
+   ```
+   [user]
+    name = xxx@gitlab.com
+    password = xxxxx
+
+   [credential]
+    helper = store
+   ```
+   - Run git pull it wont ask password
