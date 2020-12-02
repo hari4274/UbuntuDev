@@ -68,3 +68,8 @@
    - http://jsonviewer.stack.hu/
    - http://chris.photobooks.com/json/default.htm
 30. Online Photo editor : https://pixlr.com/x/
+31. To get Analysis from explain with json in postgres:
+
+`psql ejam_1910 -qAt -c "EXPLAIN (FORMAT JSON) select id from sale_order where fulfillment_order_id = '1213423423';" > /tmp/analyze.json`
+
+use json to http://tatiyants.com/pev/#/plans/new
