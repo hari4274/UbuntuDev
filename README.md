@@ -74,5 +74,5 @@
 
 use json to http://tatiyants.com/pev/#/plans/new
 
-32. Grep command with before and after lines:
-   - `cat /var/log/app/server.log | grep -a -B 30 "Expected singleton: object(44, 43)"`
+32. Grep command with before and after lines:(-A aftercount, -B beforecount)
+   - `cat /var/log/app/server.log | grep -a -A 10 -B 30 "Expected singleton: object(44, 43)"`
