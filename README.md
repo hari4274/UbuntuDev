@@ -73,3 +73,6 @@
 `psql ejam_1910 -qAt -c "EXPLAIN (FORMAT JSON) select id from sale_order where fulfillment_order_id = '1213423423';" > /tmp/analyze.json`
 
 use json to http://tatiyants.com/pev/#/plans/new
+
+32. Grep command with before and after lines:
+   - `cat /var/log/app/server.log | grep -a -B 30 "Expected singleton: object(44, 43)"`
